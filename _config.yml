@@ -1,10 +1,10 @@
 # Site settings
-title: Yym
+title: Yym Blog
 SEOTitle: 杨煜溟的博客 | Yym Blog
 header-img: img/home2.jpg
 email: yymzjuer@outlook.com
-description: ""
-keyword: ""
+description: "xxxxxxxx"
+keyword: "yyyyyyyy"
 url: "http://helloyym.me"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -76,9 +76,6 @@ gems: [jekyll-paginate]
 # Friends
 friends: [
     {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    },{
         title: "Foo",
         href: "#"
     },{
