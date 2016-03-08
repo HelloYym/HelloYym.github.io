@@ -1,7 +1,7 @@
 # Site settings
 title: Yym
 SEOTitle: 杨煜溟的博客 | Yym Blog
-header-img: img/home.jpg
+header-img: img/home2.jpg
 email: yymzjuer@outlook.com
 description: ""
 keyword: ""
@@ -63,7 +63,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "世界那么大，多玩玩看看。"
-sidebar-avatar: /img/yym.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/shulan.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
