@@ -3,8 +3,8 @@ title: Yym Blog
 SEOTitle: 杨煜溟的博客 | Yym Blog
 header-img: img/home2.jpg
 email: yymzjuer@outlook.com
-description: "xxxxxxxx"
-keyword: "yyyyyyyy"
+description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
+keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
 url: "http://helloyym.me"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -21,15 +21,19 @@ facebook_username:  yymzjuer
 
 
 # Build settings
-highlighter: pygments
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-# pygments: true
-# safe: true
-# auto: true
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
 
 
 # Markdown settings
@@ -51,6 +55,7 @@ duoshuo_username: helloyym
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
+
 # Analytics settings
 # Baidu Analytics
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
@@ -69,9 +74,9 @@ sidebar-avatar: /img/shulan.jpg      # use absolute URL, seeing it's used in bot
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
-gems: [jekyll-paginate]
+
 
 # Friends
 friends: [
