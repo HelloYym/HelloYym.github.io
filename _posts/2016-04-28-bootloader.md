@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "尝试 Bootloader"
+title:      "Bootloader"
 subtitle:   "Embedded System, Lab4, Bootloader"
 date:       2016-04-28
 author:     "Yym"
@@ -82,6 +82,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *UartHandle) {
 ```
 
 对于环形缓冲区的操作，可以封装出各种函数。
+
 ```c
 int uartGetChar(int port);
 void uartPutChar(int port, char c);
@@ -96,6 +97,7 @@ void uartPrintf(int port, const char *fmt, ...);
 
 
 `uart_readline(uint8_t *buf, uint16_t maxlen)` 函数在缓冲区内读取最大为 maxlen 长度的数据，并存储在 buf 指针所指向的位置，当遇到换行符结束。
+
 ```c
 int8_t uart_readline(uint8_t *buf, uint16_t maxlen) {  
     int count = 0;
