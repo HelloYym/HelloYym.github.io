@@ -9,6 +9,7 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 嵌入式
+    - STM32
 ---
 
 实现一个简易的bootloader，能通过串口执行两条最简单的指令：
