@@ -1,11 +1,11 @@
 # Site settings
 title: Yym Blog
-SEOTitle: 杨煜溟的博客 | Yym Blog
+SEOTitle: Yym Blog | keep it Simple and Stupid
 header-img: img/home2.jpg
-email: yymzjuer@outlook.com
+email: yangym@zju.edu.cn
 description: "杨煜溟，Student，CS@ZJU | 这里是 @Yym 杨煜溟 的个人博客，与你一起发现更大的世界。"
 keyword: "杨煜溟, Yym杨煜溟, Yym, 杨煜溟的博客, Yym Blog, 博客, 个人网站, 嵌入式, 薛昊岚, xhl, 薛昊岚的男朋友"
-url: "http://helloyym.me"              # your host, for absolute URL
+url: "http://yangym.me"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
