@@ -8,7 +8,6 @@ header-img: "img/post-bg/bootloader.jpeg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - 嵌入式
     - STM32
 ---
 
