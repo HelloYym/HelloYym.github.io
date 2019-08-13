@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "深度学习风格迁移综述和实践"
+title:      "风格迁移综述和实践"
 subtitle:   "Neural Style Transfer"
-date:       2018-01-20
+date:       2019-03-05
 author:     "Yym"
 header-img: "img/post-bg/style.jpg"
 header-mask: 0.3
@@ -99,7 +99,7 @@ $$
 
 上面的操作过程可以用卷积网络实现，网络结构如图所示，(1)一个二维卷积层，一个通道间取最大值，一个二维反卷积层。
 
-<img src='https://ws4.sinaimg.cn/large/006tKfTcly1fnzv4cqw28j30jt0aa3z1.jpg' width="500px">
+![006tKfTcly1fnzv4cqw28j30jt0aa3z1](/img/style/006tKfTcly1fnzv4cqw28j30jt0aa3z1.png)
 
 figure【style swap 的卷积网络实现方法】
 
