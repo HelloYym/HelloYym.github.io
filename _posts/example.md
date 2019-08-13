@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Bootloader"
-subtitle:   "实现简易功能的 Bootloader"
+subtitle:   "Embedded System, Lab4, Bootloader"
 date:       2016-04-28
 author:     "Yym"
 header-img: "img/post-bg/bootloader.jpeg"
